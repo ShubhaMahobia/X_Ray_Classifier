@@ -1,0 +1,10 @@
+pandas
+numpy
+opencv-python
+matplotlib
+ipykernel
+pillow
+scikit-learn
+scikit-image
+ultralytics
+streamlit
