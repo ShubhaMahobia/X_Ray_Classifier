@@ -178,7 +178,7 @@ else:
     with col2:
         st.markdown("**Sample Pneumonia X-ray**")
         # Load actual pneumonia image from training data
-        pneumonia_image_path = "person1950_bacterial_4881.jpeg"
+        pneumonia_image_path = "person1950_bacteria_4881.jpeg"
         
         try:
             pneumonia_img = Image.open(pneumonia_image_path)
