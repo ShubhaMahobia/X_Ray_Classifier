@@ -4,6 +4,10 @@ A comprehensive deep learning-based system for detecting pneumonia from chest X-
 
 ## 📋 Table of Contents
 
+LIVE LINK - 
+
+DATA SET LINK - https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+
 - [Overview](#overview)
 - [Features](#features)
 - [Project Structure](#project-structure)
@@ -50,32 +54,7 @@ This project implements an automated pneumonia detection system using state-of-t
 - **Visual Indicators**: Color-coded results (green for normal, red for pneumonia)
 - **Medical Disclaimers**: Professional healthcare warnings
 
-## 📁 Project Structure
-
-```
-Image Processing/
-├── app.py                          # Main Streamlit application
-├── requirements.txt                # Python dependencies
-├── README.md                       # Project documentation
-├── yolov8_custom_training/         # Model training directory
-│   ├── main.py                     # Training script
-│   ├── predict.py                  # Prediction script
-│   ├── train/                      # Training data
-│   │   ├── normal/                 # Normal X-ray images
-│   │   └── suffering/              # Pneumonia X-ray images
-│   └── val/                        # Validation data
-├── runs/                           # Training outputs
-│   └── classify/
-│       └── train/
-│           └── weights/
-│               ├── best.pt         # Best model weights
-│               └── last.pt         # Latest model weights
-├── image_classifier/               # Additional classification tools
-├── color_detection_yellow/         # Color detection utilities
-├── learn/                          # Learning materials and examples
-└── LPR/                           # License Plate Recognition
-```
-
+  
 ## 🚀 Installation
 
 ### Prerequisites
@@ -211,24 +190,6 @@ def load_model():
     """
 ```
 
-## 🤝 Contributing
-
-We welcome contributions to improve the pneumonia detection system!
-
-### How to Contribute
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Areas for Improvement
-- Additional image preprocessing techniques
-- Model ensemble methods
-- Enhanced UI/UX features
-- Additional medical image formats
-- Performance optimizations
-
 ## ⚠️ Important Disclaimers
 
 ### Medical Disclaimer
@@ -251,15 +212,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Medical Dataset**: Contributors to the chest X-ray dataset
 - **Open Source Community**: For various supporting libraries and tools
 
-## 📞 Contact
-
-For questions, issues, or contributions:
-- **Issues**: Use the GitHub issues page
-- **Discussions**: Join our community discussions
-- **Email**: [Your Email]
-
----
-
 **Built with ❤️ using Streamlit and YOLOv8**
-
-*Last updated: [Current Date]*
