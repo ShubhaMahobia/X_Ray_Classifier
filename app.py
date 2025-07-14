@@ -156,7 +156,7 @@ else:
     with col1:
         st.markdown("**Sample Normal X-ray**")
         # Load actual normal image from training data
-        normal_image_path = "yolov8_custom_training/train/normal/NORMAL2-IM-1423-0001.jpeg"
+        normal_image_path = "NORMAL2-IM-1427-0001.jpeg"
         
         try:
             normal_img = Image.open(normal_image_path)
@@ -178,7 +178,7 @@ else:
     with col2:
         st.markdown("**Sample Pneumonia X-ray**")
         # Load actual pneumonia image from training data
-        pneumonia_image_path = "yolov8_custom_training/train/suffering/person9_bacteria_41.jpeg"
+        pneumonia_image_path = "perosn1950_bacterial_4881.jpeg"
         
         try:
             pneumonia_img = Image.open(pneumonia_image_path)
